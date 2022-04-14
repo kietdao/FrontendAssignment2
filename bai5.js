@@ -1,6 +1,6 @@
 const a = [1, 2, 3, 4]
 
-function sumArrayWithSubtractEvenNumbers(numbers) {
+function sumArrayWithMultiplicationEvenNumbers(numbers) {
     return numbers.reduce((result, curr) => {
         if(curr % 2 === 0) {
             curr = curr * 2
@@ -10,4 +10,4 @@ function sumArrayWithSubtractEvenNumbers(numbers) {
 }
 
 
-console.log(sumArrayWithSubtractEvenNumbers(a))
+console.log(sumArrayWithMultiplicationEvenNumbers(a))

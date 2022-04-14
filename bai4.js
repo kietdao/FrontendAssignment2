@@ -16,10 +16,10 @@ const animals = [
     }
 ]
 
-function convertToStringFiltersAnimal(animals) {
+function convertToStringFilteredAnimal(animals) {
     return animals.filter(animal => animal.name.includes('t')).map(animal => {
         return `name: ${animal.name} - size: ${animal.size} - weight: ${animal.weight}kg`
     })
 }
 
-console.log(convertToStringFiltersAnimal(animals))
+console.log(convertToStringFilteredAnimal(animals))
